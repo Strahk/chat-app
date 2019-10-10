@@ -3,43 +3,53 @@
     background: #555;
     width: 220px;
     display: flex;
+    flex-direction: row;
     align-items: center;
   }
   
   /* Contact image */
-  .Contact .avatar {
+  .avatar {
     border-radius: 50%;
     margin-right: 1em;
     width: 48px;
     height: 48px;
   }
   
+  .textbox {
+    display: flex;
+    flex-direction: column;
+  }
   /* Name */
-  .Contact .name {
+  .name {
     margin: 0 0 0.25rem;
     color: #eee;
   }
   
   /* Status text */
-  .Contact .status .status-text {
+  .status-text {
     color: #999;
     margin: 0;
   }
   
   /* Status (rounded&colored indicator) */
-  .Contact .status .status-online,
-  .Contact .status .status-offline {
-    display: inline-block;
+  .status-online,
+  .status-offline {
     border-radius: 50%;
     width: 8px;
     height: 8px;
     margin-right: 6px;
   }
   
-  .Contact .status .status-online {
+  .status-online {
     background: #aed581;
   }
   
-  .Contact .status .status-offline {
+  .status-offline {
     background: #f4511e;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
