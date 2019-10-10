@@ -1,0 +1,8 @@
+.user {
+    padding: 1em;
+    background: #555;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

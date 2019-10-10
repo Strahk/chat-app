@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from './components/contact.js';
+import ContactList from './components/contactlist.js';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
                 name="Bob"
                 online
             />
+            <ContactList />
         </div>
     );
 };
