@@ -1,8 +1,7 @@
 .user {
-    padding: 1em;
     background: #555;
+    padding: 1em;
     width: 220px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    color: white;
+    padding: 16px;
 }
